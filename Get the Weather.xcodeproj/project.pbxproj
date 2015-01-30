@@ -13,6 +13,7 @@
 		085EC90F19F984C400FA0A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085EC90D19F984C400FA0A6B /* Main.storyboard */; };
 		085EC91119F984C400FA0A6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085EC91019F984C400FA0A6B /* Images.xcassets */; };
 		085EC91D19F984C400FA0A6B /* Get_the_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085EC91C19F984C400FA0A6B /* Get_the_WeatherTests.swift */; };
+		085EC92719F985AC00FA0A6B /* Coast.png in Resources */ = {isa = PBXBuildFile; fileRef = 085EC92619F985AC00FA0A6B /* Coast.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		085EC91619F984C400FA0A6B /* Get the WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get the WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		085EC91B19F984C400FA0A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		085EC91C19F984C400FA0A6B /* Get_the_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_the_WeatherTests.swift; sourceTree = "<group>"; };
+		085EC92619F985AC00FA0A6B /* Coast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coast.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				085EC90D19F984C400FA0A6B /* Main.storyboard */,
 				085EC91019F984C400FA0A6B /* Images.xcassets */,
 				085EC90819F984C400FA0A6B /* Get_the_Weather.xcdatamodeld */,
+				085EC92619F985AC00FA0A6B /* Coast.png */,
 				085EC90419F984C400FA0A6B /* Supporting Files */,
 			);
 			path = "Get the Weather";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				085EC90F19F984C400FA0A6B /* Main.storyboard in Resources */,
+				085EC92719F985AC00FA0A6B /* Coast.png in Resources */,
 				085EC91119F984C400FA0A6B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -319,6 +324,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -399,6 +405,7 @@
 				085EC92219F984C400FA0A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		085EC92319F984C400FA0A6B /* Build configuration list for PBXNativeTarget "Get the WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +414,7 @@
 				085EC92519F984C400FA0A6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
